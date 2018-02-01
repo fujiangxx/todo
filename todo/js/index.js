@@ -1,13 +1,20 @@
 $(function(){
          //内容的滚动
     //轮播图
-        var swiper = new Swiper('.swiper-container', {
-            spaceBetween: 20,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-        });
+    var swiper = new Swiper('.swiper-container', {
+        effect: 'cube',
+        grabCursor: true,
+        cubeEffect: {
+            shadow: true,
+            slideShadows: true,
+            shadowOffset: 20,
+            shadowScale: 0.94,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+
     //plan done
 
         $(".content-static div").click(function(){

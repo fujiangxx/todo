@@ -298,6 +298,34 @@ body{
 .tipShow{
     animation: tipShow 1s ease-in;
 }
+
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100vw;
+    height: 20vh;
+    /*position: absolute;*/
+    /*left:10vw;*/
+    /*top: 0;*/
+    /*margin-left: -150px;*/
+    /*margin-top: -150px;*/
+}
+/*.swiper-slide {*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+/*}*/
+
 /*
   filter:blur(1px);模糊滤镜
 
